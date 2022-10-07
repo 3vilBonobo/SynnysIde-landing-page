@@ -15,37 +15,141 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <script src="script.js" defer></script>
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body>
-    About Services Projects Contact We are creatives Transform your brand We are
-    a full-service creative agency specializing in helping brands grow fast.
-    Engage your clients through compelling visuals that do most of the marketing
-    for you. Learn more Stand out to the right audience Using a collaborative
-    formula of designers, researchers, photographers, videographers, and
-    copywriters, we’ll build and extend your brand in digital places. Learn more
-    Graphic design Great design makes you memorable. We deliver artwork that
-    underscores your brand message and captures potential clients’ attention.
-    Photography Increase your credibility by getting the most stunning,
-    high-quality photos that improve your business image. Client testimonials We
-    put our trust in Sunnyside and they delivered, making sure our needs were
-    met and deadlines were always hit. Emily R. Marketing Director Sunnyside’s
-    enthusiasm coupled with their keen interest in our brand’s success made it a
-    satisfying and enjoyable experience. Thomas S. Chief Operating Officer
-    Incredible end result! Our sales increased over 400% when we worked with
-    Sunnyside. Highly recommended! Jennie F. Business Owner About Services
-    Projects Contact
+    <header>
+      <nav>
+        <div class="logo"><img src="./images/logo.svg" alt="logo" /></div>
+        <ul>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+        <button class="nav-btn" type="button" title="nav">
+          <img class="nav-icon" src="./images/icon-hamburger.svg" alt="" />
+        </button>
+      </nav>
 
-    <div class="attribution">
-      Challenge by
-      <a
-        href="https://www.frontendmentor.io?ref=challenge"
-        rel="noopener"
-        target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      <section class="hero">
+        <h1>WE ARE CREATIVES</h1>
+        <img src="" alt="" class="arrow" />
+      </section>
+    </header>
+
+    <section class="top-squares">
+      <div class="square item1">
+        <h2 class="left-title">Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+        </p>
+        <a href="#">LEARN MORE</a>
+      </div>
+      <div class="square item2"></div>
+      <div class="square item3"></div>
+      <div class="square item4">
+        <h2 class="left-title">Stand out to the right audience</h2>
+        <p>
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+        </p>
+        <a href="#">LEARN MORE</a>
+      </div>
+      <div class="square item5">
+        <h2>Graphic design</h2>
+        <p>
+          Great design makes you memorable. We deliver artwork that underscores
+          your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+      <div class="square item6">
+        <h2>Photography</h2>
+        <p>
+          Increase your credibility by getting the most stunning, high-quality
+          photos that improve your business image.
+        </p>
+      </div>
+    </section>
+    <section class="testimonials-section">
+      <h2>Client testimonials</h2>
+      <div class="testimonials">
+        <div class="client">
+          <img class="client-img" src="./images/image-emily.jpg" alt="" />
+          <p class="client-testimony">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h3 class="client-name">Emily R.</h3>
+          <h4 class="client-job">Marketing Director</h4>
+        </div>
+        <div class="client">
+          <img class="client-img" src="./images/image-thomas.jpg" alt="" />
+          <p class="client-testimony">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h3 class="client-name">Thomas S.</h3>
+          <h4 class="client-job">Chief Operating Officer</h4>
+        </div>
+        <div class="client">
+          <img class="client-img" src="./images/image-jennie.jpg" alt="" />
+          <p class="client-testimony">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h3 class="client-name">Jennie F.</h3>
+          <h4 class="client-job">Business Owner</h4>
+        </div>
+      </div>
+    </section>
+    <section class="images">
+      <div class="image item7"><img src="" alt="" class="bottom-img" /></div>
+      <div class="image item8"><img src="" alt="" class="bottom-img" /></div>
+      <div class="image item9"><img src="" alt="" class="bottom-img" /></div>
+      <div class="image item10"><img src="" alt="" class="bottom-img" /></div>
+    </section>
+    <footer>
+      <h2 class="footer-title"></h2>
+      <div class="footer-nav">
+        <nav>
+          <ul>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <div class="socials">
+          <a href="" title="facebook"
+            ><img src="./images/icon-facebook.svg" alt=""
+          /></a>
+          <a href="" title="instagram"
+            ><img src="./images/icon-instagram.svg" alt=""
+          /></a>
+          <a href="" title="tweeter"
+            ><img src="./images/icon-twitter.svg" alt=""
+          /></a>
+          <a href="" title="pinterest"
+            ><img src="./images/icon-pinterest.svg" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          rel="noopener"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Irinella Boutsika</a>.
+      </div>
+    </footer>
   </body>
 </html>
