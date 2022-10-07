@@ -38,11 +38,28 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 4rem;
     ul {
       display: none;
     }
   }
 }
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.page-title {
+  color: $White;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 8px;
+  text-align: center;
+  line-height: 2.2rem;
+  margin-bottom: 3rem;
+}
+
 .item2 {
   background-image: url(./images/mobile/image-transform.jpg);
   height: 300px;
